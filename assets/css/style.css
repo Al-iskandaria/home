@@ -233,6 +233,36 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px 20px;
   }
 }
+.btn-menu {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+  background-color: #cda45e;
+}
+
+.btn-menu:hover {
+  background: transparent;
+  color: #fff;
+}
+
+#menu .btn-menu {
+  margin-top: 30px;
+  color: #fff;
+  border: 2px solid #cda45e;
+}
+
+#menu .btn-menu:hover {
+  background: #cda45e;
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -935,7 +965,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
